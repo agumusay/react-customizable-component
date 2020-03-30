@@ -57,7 +57,7 @@ function App() {
         </li>
         <li>
           <Avatar
-            size="Large"
+            size="large"
             type="circle"
             url="https://s3.amazonaws.com/uifaces/faces/twitter/mangosango/128.jpg"
           />
