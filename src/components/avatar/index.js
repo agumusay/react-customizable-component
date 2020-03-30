@@ -8,7 +8,7 @@ function Avatar({ url = "", type = "square", size = "medium" }) {
 
 Avatar.propTypes = {
   url: propTypes.string,
-  type: propTypes.oneOf(["square", "rounded", "circle", ""]),
-  size: propTypes.oneOf(["small", "medium", "large", "x-large", ""])
+  type: propTypes.oneOf(["square", "rounded", "circle"]),
+  size: propTypes.oneOf(["small", "medium", "large", "x-large"])
 };
 export default Avatar;
