@@ -3,7 +3,7 @@ import "./styles.scss";
 import propTypes from "prop-types";
 
 function Avatar({ url = "", type = "square", size = "medium" }) {
-  return <img className={`${type} ${size}`} src={url} alt="avatar"></img>;
+  return <img className={`${type} ${size}`} src={url} alt={`avatar-${type}-${size}`}></img>;
 }
 
 Avatar.propTypes = {
